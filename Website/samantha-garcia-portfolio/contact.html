@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Contact Me</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <script src="indexScript.js"></script>
+  <link rel="stylesheet" href="portStyle.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+</head>
+
+<body>
+  <nav class="navbar navbar-light" id="top">
+    <div class="container-fluid">
+      <ul class="nav navbar-nav">
+        <a class="navbar-brand" href="index.html">
+          <img src="logo.PNG" alt="Logo" class="logo">
+        </a>
+        <li><a href="about.html">About Me</a></li>
+        <li><a href="prevWork.html">Previous Work</a></li>
+        <li><a href="resume.html">Resum&#233;</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="contact.html">Contact Me</a></li>
+      </ul>
+    </div>
+  </nav>
+      
+  <h1>Contact Me</h1>
+
+  <img src="ceruleanprofilepic.PNG" alt="Music Alter Ego" class="conPic"/>
+
+  <h3>Think I'm a good fit?  Eager to find out more?  Fill out this form!</h3>
+    
+  <form name="contactForm" onsubmit="return validateForm()">
+    <label for="fname">Name: *</label>
+    <input type="text" id="fname" name="fname"><br><br>
+    <label for="eaddress">Email address: *</label>
+    <input type="text" id="eaddress" name="eaddress"><br><br>
+    <label for="pnumber">Phone number:</label>
+    <input type="text" id="pnumber" name="pnumber"><br><br>
+    <p>Message:</p>
+    <textarea name="comment" rows="5" cols="30" id="message"></textarea><br>
+    <input type="submit" value="Submit" class="formBtn">
+    <input type="reset" value="Reset" class="formBtn">
+  </form>
+  <br/><br/><br/>
+
+  <h3>Prefer to reach out directly?</h3>
+  <p class="emailMe">Email me at samanthagarciavb@gmail.com</p>
+
+  <br/><br/><br/>
+
+      <footer>
+        <a href="index.html" class="footEl">Home</a>
+        <p class="footEl">samanthagarciavb@gmail.com</p>
+        <p class="footEl">(757)386-2768</p>
+        <p class="footEl">2900 Kensington Ave Apt 46 Richmond, VA 23221</p>
+        <a href="#top" class="footEl">Back to Top</a>
+    </footer>
+</body>
